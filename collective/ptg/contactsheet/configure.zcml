@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.contactsheet">
+
+    <browser:resourceDirectory
+        name="ptg.contactsheet"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IContactsheetDisplaySettings"
+        factory=".ContactsheetSettings" />
+
+    <browser:page 
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-contactsheet"
+        class=".ContactsheetDisplayType"
+        template="contactsheet.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".ContactsheetDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-contactsheet" />
+
+</configure>
