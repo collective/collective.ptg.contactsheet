@@ -142,7 +142,7 @@ $(document).ready(function() {
     }
 
     def css(self):
-        relpath = '++resource++ptg.contactsheet/contactsheet'
+        relpath = '++resource++ptg.contactsheet'
         style = '%s/%s/%s' % (self.portal_url, relpath,
             self.settings.contactsheet_style)
 
