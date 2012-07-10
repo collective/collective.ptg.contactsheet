@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1\n"
+"POT-Creation-Date: 2012-07-10 08:19+0000\n"
+"PO-Revision-Date: 2010-03-18 15:01+0100\n"
+"Last-Translator: Martijn Schenk <martijn.schenk@fourdigits.nl>\n"
+"Language-Team: Rob Gietema <rob@fourdigits.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: nl\n"
+"Language-Name: Dutch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.plonetruegallery\n"
+
+#. Default: "Gallery View"
+#: ./browser/views/configure.zcml
+msgid "Gallery View"
+msgstr ""
+
+#. Default: "Number of images before a forced new row (use a high number if you dont want this)"
+#: ./__init__.py:13
+msgid "label_contactsheet_columns"
+msgstr ""
+
+#. Default: "Contactsheet"
+#: ./__init__.py:109
+msgid "label_contactsheet_display_type"
+msgstr ""
+
+#. Default: "Height of (each) image"
+#: ./__init__.py:24
+msgid "label_contactsheet_imageheight"
+msgstr ""
+
+#. Default: "Width of (each) image (when mouse hovers)"
+#: ./__init__.py:19
+msgid "label_contactsheet_imagewidth"
+msgstr ""
+
+#. Default: "Opacity on mouse over"
+#: ./__init__.py:37
+msgid "label_contactsheet_overlay_opacity"
+msgstr ""
+
+#. Default: "0 Off"
+#: ./__init__.py:42
+msgid "label_contactsheet_overlay_opacity0"
+msgstr ""
+
+#. Default: "0.1 Light"
+#: ./__init__.py:45
+msgid "label_contactsheet_overlay_opacity1"
+msgstr ""
+
+#. Default: "1 Pitch Dark"
+#: ./__init__.py:69
+msgid "label_contactsheet_overlay_opacity10"
+msgstr ""
+
+#. Default: "0.2"
+#: ./__init__.py:48
+msgid "label_contactsheet_overlay_opacity2"
+msgstr ""
+
+#. Default: "0.3"
+#: ./__init__.py:50
+msgid "label_contactsheet_overlay_opacity3"
+msgstr ""
+
+#. Default: "0.4 Medium"
+#: ./__init__.py:52
+msgid "label_contactsheet_overlay_opacity4"
+msgstr ""
+
+#. Default: "0.5"
+#: ./__init__.py:55
+msgid "label_contactsheet_overlay_opacity5"
+msgstr ""
+
+#. Default: "0.6"
+#: ./__init__.py:57
+msgid "label_contactsheet_overlay_opacity6"
+msgstr ""
+
+#. Default: "0.7 Dark"
+#: ./__init__.py:60
+msgid "label_contactsheet_overlay_opacity7"
+msgstr ""
+
+#. Default: "0.8 Very Dark"
+#: ./__init__.py:63
+msgid "label_contactsheet_overlay_opacity8"
+msgstr ""
+
+#. Default: "0.9 Almost Black"
+#: ./__init__.py:66
+msgid "label_contactsheet_overlay_opacity9"
+msgstr ""
+
+#. Default: "What stylesheet (css file) to use"
+#: ./__init__.py:75
+msgid "label_contactsheet_style"
+msgstr ""
+
+#. Default: "Custom css file"
+#: ./__init__.py:95
+msgid "label_contactsheet_style_custom"
+msgstr ""
+
+#. Default: "Default"
+#: ./__init__.py:80
+msgid "label_contactsheet_style_default"
+msgstr ""
+
+#. Default: "Icon style (for small images)"
+#: ./__init__.py:83
+msgid "label_contactsheet_style_icon"
+msgstr ""
+
+#. Default: "Icon style no 2"
+#: ./__init__.py:86
+msgid "label_contactsheet_style_icon_ii"
+msgstr ""
+
+#. Default: "Icon style no 3"
+#: ./__init__.py:89
+msgid "label_contactsheet_style_icon_iii"
+msgstr ""
+
+#. Default: "No style / css file"
+#: ./__init__.py:92
+msgid "label_contactsheet_style_no"
+msgstr ""
+
+#. Default: "Use Thumbnail size instead of Size"
+#: ./__init__.py:29
+msgid "label_contactsheet_use_icons"
+msgstr ""
+
+#. Default: "How many pixels to zoom when mouse over"
+#: ./__init__.py:33
+msgid "label_contactsheet_zoom"
+msgstr ""
+
+#. Default: "Name of Custom css file if you chose that above"
+#: ./__init__.py:101
+msgid "label_custom_style"
+msgstr ""
+
