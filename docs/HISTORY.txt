@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.5
+-----
+
+- release to make it work with Plone 4.2
+
+
 1.0.4
 -----
 
