@@ -1,25 +1,31 @@
 <div class="contactsheet" tal:define="steps view/settings/contactsheet_columns" >
-     <tal:images tal:repeat="img view/batch">
+    <tal:images tal:repeat="img view/batch">
     <a href="" tal:define="number repeat/img/index; theclass python:'row_' + str(number%steps)"  tal:attributes="href img/link; class theclass" >
             <div>
-                <span class="image-title" tal:content="img/title">Title</span> 
-                <p class="image-desc" tal:content="structure img/description">Description</p> 
+                <tal:copydesc
+                    tal:define="copystr img/copyright|string:;
+                        copystr python: '&copy;' + copystr if copystr else copystr">
+
+                    <span class="image-title" tal:content="img/title">Title</span>
+                    <p class="image-desc" tal:content="structure img/description">Description</p>
+                    <p class="image-copy" tal:content="copystr">Copyright</p>
+                </tal:copydesc>
             </div>
              <img title="Locomotives Roundhouse"
                     alt=""
                     src=""
                     tal:attributes="title img/title;
                                     alt img/description;
-                                    src img/image_url" 
+                                    src img/image_url"
                     tal:condition="not: view/settings/contactsheet_use_icons" />
             <img title="Locomotives Roundhouse"
                     alt=""
                     src=""
                     tal:attributes="title img/title;
                                     alt img/description;
-                                    src img/thumb_url" 
+                                    src img/thumb_url"
                     tal:condition="view/settings/contactsheet_use_icons" />
 
-        </a>       
-    </tal:images>    
+        </a>
+    </tal:images>
 </div>
