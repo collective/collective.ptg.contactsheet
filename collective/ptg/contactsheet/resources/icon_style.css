@@ -32,10 +32,17 @@
 
 .image-desc {
 	clear: both;
-	font-size: 40%;
+	font-size: 80%;
 	font-style: italic;
 	font-weight: normal;
 	margin-top: 16px
+}
+
+.image-copy {
+        clear: both;
+        font-size: 60%;
+        font-style: normal;
+        font-weight: normal
 }
 a.row_0 {
 	clear: left;
