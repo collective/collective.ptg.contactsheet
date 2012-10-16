@@ -43,6 +43,14 @@
 	font-weight: normal;
 	margin-top: 16px
 }
+
+.image-copy {
+        clear: both;
+        font-size: 30%;
+        font-style: normal;
+        font-weight: normal 
+}
+
 a.row_0 {
 	clear: left;
 	margin-left:  0;
