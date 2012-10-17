@@ -41,14 +41,17 @@ td#portal-column-content {
 	font-size: 80%;
 	font-style: italic;
 	font-weight: normal;
-	margin-top: 16px
+	margin-top: 16px;
+        margin-bottom: 0px !important;
 }
 
 .image-copy {
         clear: both;
         font-size: 60%;
         font-style: normal;
-        font-weight: normal
+        font-weight: normal;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
 }
 
 a.row_0 {
