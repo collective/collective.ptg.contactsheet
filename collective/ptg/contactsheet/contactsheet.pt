@@ -6,8 +6,8 @@
             lenkeb img/image_url;
             lenkec python: lenkeb + '/download';
             lenke python: view.settings.contactsheet_download and 
-            lenkea or
-            lenkec"  
+            lenkec or
+            lenkea"  
         tal:attributes="href lenke; class theclass" >
             <div>
                 <tal:copydesc
