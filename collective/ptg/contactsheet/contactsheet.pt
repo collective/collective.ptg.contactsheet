@@ -1,6 +1,14 @@
 <div class="contactsheet" tal:define="steps view/settings/contactsheet_columns" >
     <tal:images tal:repeat="img view/batch">
-    <a href="" tal:define="number repeat/img/index; theclass python:'row_' + str(number%steps)"  tal:attributes="href img/link; class theclass" >
+    <a href="" 
+        tal:define="number repeat/img/index; theclass python:'row_' + str(number%steps);
+            lenkea img/link;
+            lenkeb img/image_url;
+            lenkec python: lenkeb + '/download';
+            lenke python: view.settings.contactsheet_download and 
+            lenkea or
+            lenkec"  
+        tal:attributes="href lenke; class theclass" >
             <div>
                 <tal:copydesc
                     tal:define="copystr img/copyright|string:;
@@ -29,3 +37,5 @@
         </a>
     </tal:images>
 </div>
+
+

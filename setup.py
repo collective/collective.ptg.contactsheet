@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
+<<<<<<< HEAD
 version = '1.1.1'
+=======
+version = '1.0.6'
+>>>>>>> Added option to download image
 
 setup(name='collective.ptg.contactsheet',
       version=version,

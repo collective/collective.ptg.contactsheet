@@ -3,3 +3,5 @@ collective.ptg.contactsheet.egg-info
 .DS_Store
 
 dist/collective.ptg.contactsheet-1.0.5.zip
+
+*.pyc
