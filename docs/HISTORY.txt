@@ -1,7 +1,11 @@
 Changelog
 =========
 
-<<<<<<< HEAD
+1.1.2
+-----
+
+- added download link [espenmn]
+
 1.1.1 ~ (2012-10-17)
 --------------------
 
@@ -14,12 +18,6 @@ Changelog
 
 - add copyright information
   [eehmke]
-=======
-1.0.6
------
-
-- added download link [espenmn]
->>>>>>> Added option to download image
 
 1.0.5
 -----
