@@ -4,6 +4,8 @@ Changelog
 1.1.3 (unreleased)
 ------------------
 
+- Updated Spanish translation [macagua]
+
 - Updated POT Gettext file [macagua]
 
 1.1.2
