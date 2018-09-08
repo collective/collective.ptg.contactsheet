@@ -1,7 +1,7 @@
 # Manually defined message ids
 msgid ""
 msgstr ""
-"Project-Id-Version: Truegallery VERSION\n"
+"Project-Id-Version: collective.ptg.contactsheet VERSION\n"
 "POT-Creation-Date: 2012-07-10 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: \n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.contactsheet\n"
 
 #. Default: "Gallery View"
 #: ./browser/views/configure.zcml
