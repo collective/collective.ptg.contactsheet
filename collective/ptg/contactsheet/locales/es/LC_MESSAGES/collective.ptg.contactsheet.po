@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.contactsheet\n"
 "POT-Creation-Date: 2012-07-10 08:19+0000\n"
-"PO-Revision-Date: 2018-08-31 05:08-0400\n"
+"PO-Revision-Date: 2018-09-14 05:08-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish Team\n"
 "Language: es\n"
@@ -28,11 +28,10 @@ msgstr "Vista de galería"
 
 #. Default: "Number of images before a forced new row (use a high number if you dont want this)"
 #: ./__init__.py:13
-#, fuzzy
 msgid "label_contactsheet_columns"
 msgstr ""
-"Números de imágenes antes forzar una fila nueva (use un número alto si usted "
-"no quiere esto)"
+"Número de imágenes antes de forzar una fila nueva (use un número alto si no "
+"desea esto)"
 
 #. Default: "Contactsheet"
 #: ./__init__.py:109
@@ -62,12 +61,12 @@ msgstr "0 Apagado"
 #. Default: "0.1 Light"
 #: ./__init__.py:45
 msgid "label_contactsheet_overlay_opacity1"
-msgstr ""
+msgstr "0.1 Ligero"
 
 #. Default: "1 Pitch Dark"
 #: ./__init__.py:69
 msgid "label_contactsheet_overlay_opacity10"
-msgstr ""
+msgstr "1 Muy Oscuro"
 
 #. Default: "0.2"
 #: ./__init__.py:48
@@ -82,7 +81,7 @@ msgstr "0.3"
 #. Default: "0.4 Medium"
 #: ./__init__.py:52
 msgid "label_contactsheet_overlay_opacity4"
-msgstr ""
+msgstr "0.4 Medio"
 
 #. Default: "0.5"
 #: ./__init__.py:55
@@ -127,7 +126,7 @@ msgstr "Por defecto"
 #. Default: "Icon style (for small images)"
 #: ./__init__.py:83
 msgid "label_contactsheet_style_icon"
-msgstr "Estilo de icono (para imagenes pequeñas)"
+msgstr "Estilo de icono (para imágenes pequeñas)"
 
 #. Default: "Icon style no 2"
 #: ./__init__.py:86
@@ -152,7 +151,7 @@ msgstr "Usar Tamaño de miniatura en vez del Tamaño"
 #. Default: "How many pixels to zoom when mouse over"
 #: ./__init__.py:33
 msgid "label_contactsheet_zoom"
-msgstr ""
+msgstr "¿Cuantos píxeles al acercar cuando el cursor del ratón sobre la imagen?"
 
 #. Default: "Name of Custom css file if you chose that above"
 #: ./__init__.py:101
